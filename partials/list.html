@@ -1,4 +1,4 @@
-    <ul class="navigation">
+  <ul class="navigation">
     <li><a href="#">Home</a></li>
     <li><a href="#">About</a></li>
     <li><a href="#videos">Videos</a></li>
@@ -74,7 +74,7 @@
     <ul class="venuelist">
       <li class="venue cf" ng-repeat="item in venues | filter: query | orderBy: venueOrder:direction">
         <a href="#/details/{{venues.indexOf(item)}}">
-          <img ng-src="images/{{item.shortname}}_tn.jpg" alt="Photo of {{item.name}}">
+          <img ng-src="images/{{item.shortname}}_img.jpg" alt="Photo of {{item.name}}">
           <div class="info">
             <h3 class="sidebar-list">{{item.name}}</h3>
             <h5 class="sidebar-nabe">{{item.neighborhood}}</h5>
