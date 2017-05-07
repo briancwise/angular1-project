@@ -1,0 +1,53 @@
+[{
+    "name": "Aeolian Hall",
+    "shortname": "aeolian_hall",
+    "neighborhood": "Midtown",
+    "history": "Located at 29-33 West 42nd Street, Aeolian Hall was built in 1912 for the Aeolian piano manufacturer. This was the site of the premiere of Gershwin's Rhapsody in Blue. While the building still stands, the concert hall closed in 1926."
+  },
+  {
+    "name": "Astor Place Opera House",
+    "shortname": "astor_place",
+    "neighborhood": "East Village",
+    "history": "Opened in 1847 and demolished in 1890, it led a tumultuous life, being once the site of a famous riot by fans of rival actors who played Macbeth."
+  },
+  {
+    "name": "52nd Street Jazz Clubs",
+    "shortname": "52ndstreet_clubs",
+    "neighborhood": "Midtown",
+    "history": "Known as 'Swing Street,' the block between Fifth and Sixth Avenues was the city's center of jazz performance from the 1930s to the early 1950s. In its heyday, 52nd Street clubs hosted such bebop legends as Miles Davis, Dizzy Gillespie, Billie Holiday, Thelonious Monk, Charlie Parker, and numerous others. Today, it is remembered through a commemorative street sign and the 52nd Street Theme by Thelonious Monk, which evolved into a jazz standard."
+  },
+  {
+    "name": "Birdland - 1949-65",
+    "shortname": "birdland_interior",
+    "neighborhood": "Midtown",
+    "history": "The original Birdland jazz club was located at 1678 Broadway, just north of West 52nd Street. It came by its name when the original owners sought to capitalize on the popularity of their regular headliner Charlie Yardbird Parker, who was near the peak of his fame in 1949. The venue attracted many other legendary performers and is featured on several recordings including Art Blakey's 1954 A Night at Birdland, and most of John Coltrane's Live at Birdland."
+  },
+  {
+    "name": "CBGB",
+    "shortname": "cbgb_club",
+    "neighborhood": "East Village",
+    "history": "After previous incarnations as a biker bar and a dive bar, this legendary rock club opened on the Bowery in 1973. The letters CBGB stood for Country, BlueGrass, and Blues - the club's original mandate - although it became best-known for its punk rock and new wave lineup. Once a proving ground for the Ramones, Blondie and the Talking Heads, it is now home to an upscale clothing designer."
+  },
+  {
+    "name": "Cotton Club",
+    "shortname": "cotton_club",
+    "neighborhood": "Harlem",
+    "history": "From 1923 to 1935, the famous jazz club operated at 141st Street and Malcolm X Boulevard, presenting revues that featured dancers, singers, comedians and variety acts, as well as a house band. Duke Ellington got his first big breakthrough here."
+  },
+  {
+    "name": "Manhattan Opera House",
+    "shortname": "manhattan_operahouse",
+    "neighborhood": "Chelsea",
+    "history": "The Grand Opera House was a theater at the northwest corner of 8th Avenue and 23rd Street in Manhattan. The 1800-seat theater opened on January 9, 1868 with a performance of Verdi's Il trovatore, though it often played more populist fare. It was converted to a movie theater in 1938 before meeting the wrecking ball in 1960. A public housing project now stands in its place."
+  }, {
+    "name": "Old Metropolitan Opera",
+    "shortname": "metopera_house",
+    "neighborhood": "Times Square",
+    "history": "Sometimes referred to as 'Old Met,' the Metropolitan Opera House opened on October 22, 1883 at 1411 Broadway. While the 3,600-seat theater was noted for its lavish interior and fine acoustics, the backstage facilities were often criticized as being inadequate for a large opera company. It was demolished in 1967 when the Met moved to Lincoln Center."
+  }, {
+    "name": "Steinway Hall (1925-2014)",
+    "shortname": "steinway_hall",
+    "neighborhood": "Midtown",
+    "history": "The second of three iterations of Steinway Hall served generations of pianists, many of whom spent hours trying out pianos in its famous basement showroom. Among its famous customers were Vladimir Horowitz and Sergei Rachmaninoff."
+  }
+]
