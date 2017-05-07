@@ -1,0 +1,21 @@
+<div class="w3-row">
+  <div class="w3-col s12 w3-left">
+    <ul class="navigation">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Videos</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <h1>Lost NYC Music Landmarks</h1>
+    <section class="venueinfo">
+      <div class="venue cf" ng-model="venues">
+
+        <h2>{{venues[whichItem].name}}</h2>
+        <div class="info">
+          <h5>{{venues[whichItem].neighborhood}}</h5>
+          <img class="fade-in" ng-src="images/{{venues[whichItem].shortname}}_tn.jpg" alt="Photo of {{venues[whichItem].name}}">
+        </div>
+        <div class="history">{{venues[whichItem].history}}</div>
+        <a href="index.html">&laquo; Back to search</a>
+      </section>
+    </div></div>
