@@ -1,0 +1,92 @@
+  <ul class="navigation">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#videos">Videos</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+
+  <h1>Lost NYC Music Landmarks</h1>
+  <img class="fade-in" src="images/52nd_Street_banner.jpg">
+  <figcaption>52nd Street at night (May 1948); Photo by William P. Gottlieb (cropped)</figcaption><p>
+
+  <!-- Main section -->
+
+  <article id="main-wrapper" class="main-grid clearfix flexbox">
+
+    <div id="page-content" class="page-content flexbox-col">
+      <h3 class="subtitle">An Ever-Changing City</h3>
+      <ul>
+        <li>
+         <p class="intro">Music venues come and go, especially in New York City. In some eras, jazz clubs lined entire city blocks, notably 52nd Street, which hosted a row of notable after-hours joints, including Birdland, during the '30s and '40s. In the 1960s and '70s, rock clubs fourished on the Lower East Side, while in the present day, Brooklyn has become a hotbed of experimental sounds. Classical music venues have seen turnover, too, notably with the shuttering of the Old Met in 1967. Where else can the awning of punk club CBGB's <a href="http://gothamist.com/2016/12/14/cbgb_awning_sale.php" target="_blank">sell for $30,000</a> - reportedly 500 times the original monthly rent. With that in mind, we present this brief guide to the famous halls that have come and gone over the decades in New York.</p>
+       </li>
+     </ul>
+     <h3 class="subtitle">Latest news</h3>
+     <ul>
+      <li class="intro">
+        <p>» <a href="https://www.nytimes.com/2017/05/05/arts/music/is-the-met-opera-too-big-and-other-questions-as-its-home-turns-50.html?_r=0" target="_blank">Is the Met Opera Too Big? And Other Questions as Its Home Turns 50</a> (New York Times)</p>
+      </li>
+      <li class="intro">
+        <p>» <a href="https://philly.curbed.com/2017/5/4/15545618/metropolitan-opera-house-philadelphia-construction-timelime" target="_blank">$45M restoration of Philadelphia Opera House to begin in June</a> (Curbed Philadelphia)</p>
+      </li>
+
+      <li class="intro">
+        <p>» <a href="http://www.scottishconstructionnow.com/18809/design-team-unveiled-for-edinburgh-concert-hall/" target="_blank">Design team unveiled for Edinburgh concert hall</a> (Scottish Construction Now)</p>
+      </li>
+    </ul>
+
+    <div class="video-content">
+      <a name="Videos"></a> 
+      <h3 class="subtitle">Vintage Performances</h3>
+      <p>Below is a playlist of several noted performances in New York conceert venues over the decades.</p>
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?list=PLoBQkXlnMXnshTlT2iTmQlxHmkUiRNiZh" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <!-- Right Rail (Angular) -->
+
+  <div id="sidebar" class="opened right flexbox-col">
+
+   <aside class="venuepage">
+    <div class="search">
+      <h2>Venue Directory</h2>
+      <label>Search: </label>
+      <input ng-model="query" placeholder="Search for lost venues" autofocus>
+
+      <label class="formgroup">
+        <select ng-model="venueOrder">
+          <option value="name">Name</option>
+          <option value="neighborhood">Neighborhood</option>
+        </select>
+      </label>
+
+      <label class="formgroup">
+        <input type="radio" ng-model="direction" name="direction" checked>
+        Alphab.
+      </label>
+      <label class="formgroup">
+        <input type="radio" ng-model="direction" name="direction" value="reverse">
+        Reverse
+      </label>
+    </aside>
+
+    <ul class="venuelist">
+      <li class="venue cf" ng-repeat="item in venues | filter: query | orderBy: venueOrder:direction">
+        <a href="#/details/{{venues.indexOf(item)}}">
+          <img ng-src="images/{{item.shortname}}_tn.jpg" alt="Photo of {{item.name}}">
+          <div class="info">
+            <h3 class="sidebar-list">{{item.name}}</h3>
+            <h5 class="sidebar-nabe">{{item.neighborhood}}</h5>
+          </div>
+        </a>
+      </li>
+    </ul>  
+  </div>
+</article>
+
+<!-- Footer -->
+
+<footer role="contentinfo">
+  <p>Brian Wise</p>
+  <p>150 Joralemon Street 8F</p>
+  <p>Brooklyn, NY 11201</p>
+</footer>
